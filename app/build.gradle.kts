@@ -80,6 +80,11 @@ dependencies {
     implementation(libs.retrofit.gson)
     implementation(libs.coil.compose)
 
+    // Markdown rendering
+    implementation(libs.markwon.core)
+    implementation(libs.markwon.html)
+    implementation(libs.markwon.linkify)
+
     // Testing
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
