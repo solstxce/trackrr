@@ -78,6 +78,7 @@ dependencies {
     // Network + Images
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson)
+    implementation(libs.okhttp)
     implementation(libs.coil.compose)
 
     // Markdown rendering
